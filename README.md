@@ -66,29 +66,23 @@ weekly-meal-planner/
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Sowjanya-N4/Weekly-Meal-Planner.git
-   cd Weekly-Meal-Planner
-   ```
-
-2. **Install Backend Dependencies**
+1. **Install Backend Dependencies**
    ```bash
    cd backend
    npm install
    ```
 
-3. **Install Frontend Dependencies**
+2. **Install Frontend Dependencies**
    ```bash
    cd ../frontend
    npm install
    ```
 
-4. **Start MongoDB**
+3. **Start MongoDB**
    - Ensure MongoDB service is running on your system
    - Default connection: `mongodb://127.0.0.1:27017/mealplanner`
 
-5. **Configure Environment Variables (Optional)**
+4. **Configure Environment Variables (Optional)**
    
    Create `backend/.env`:
    ```env
